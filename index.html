@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <title>Catalogue de Jeux</title>
+</head>
+
+<body>
+    <header>
+        <h1>Catalogue de Jeux</h1>
+        <div id="carrello" onclick="afficherPanier()">🛒 Total des articles<span id="quantite-panier">0</span></div>
+    </header>
+    <main>
+        <div id="catalogue"></div>
+        <div id="carrello-popup">
+            <h3>Votre Panier</h3>
+            <div id="panier"></div>
+            <button id="close-popup">Fermer</button>
+            <div id="total"></div>
+            <form id="formulaire-confirmation">
+                <input type="text" id="nom" placeholder="Nom" required>
+                <input type="text" id="adresse" placeholder="Adresse" required>
+                <button type="submit">Confirmer la commande</button>
+            </form>
+        </div>
+        <div id="overlay"></div>
+    </main>
+    <footer>
+        <p>© 2024 Catalogue de Jeux || TI 4 CF2M  </p>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
