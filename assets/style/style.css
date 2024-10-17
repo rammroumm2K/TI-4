@@ -1,0 +1,194 @@
+body {
+   
+    font-family: Arial, sans-serif;
+    margin: 0;
+    
+    background-color: #f9f9f9;
+}
+.contenuto{
+    padding: 100px 50px 75px 100px;
+}
+
+header {
+    background: rgb(0, 139, 135);
+    background: linear-gradient(170deg, rgba(0, 139, 135, 1) 0%, rgba(0, 100, 198, 1) 35%, rgba(255, 0, 228, 1) 100%);
+    color: white;
+    
+    
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-bottom: 75px;
+}
+header img{
+    position: absolute;
+    top: -60px;
+    left: 20px;
+    width: 12rem;
+}
+
+input {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+#carrello {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+
+#carrello span {
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#catalogue, #panier, #confirmation {
+    margin: 20px;
+}
+
+#catalogue .produit, #panier .article {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#catalogue img {
+    width: 150px;
+    height: 200px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+footer {
+    text-align: center;
+    font-size: large;
+    color: white;
+    background: rgb(0, 139, 135);
+    background: linear-gradient(170deg, rgba(0, 139, 135, 1) 0%, rgba(0, 100, 198, 1) 35%, rgba(255, 0, 228, 1) 100%);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* Popup styles */
+#carrello-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    z-index: 1000;
+    display: none;
+    /* Hide by default */
+}
+
+#carrello-popup h3 {
+    margin-top: 0;
+}
+
+#carrello-popup .article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#carrello-popup button.remove {
+    background-color: red;
+}
+
+/* Overlay for the popup */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: none;
+    /* Hide by default */
+}
+
+.modal {
+    display: block;
+    /* Mostra il modale */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Larghezza a tutto schermo */
+    height: 100%;
+    /* Altezza a tutto schermo */
+    overflow: auto;
+    /* Abilita lo scroll se necessario */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Sfondo semi-trasparente */
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    /* Centrato in verticale e orizzontale */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    /* Larghezza del modale */
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* Responsive */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    #carrello-popup .article {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    #carrello-popup {
+        width: 60%; 
+        max-height: 50vh; 
+        overflow-y: auto; 
+    }
+}

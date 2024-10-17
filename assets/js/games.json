@@ -1,0 +1,31 @@
+[
+    { "id": 1, "name": "The Last of Us Part II", "platform": "PS4", "image":"https://www.retroplaystationkopen.nl/assets/products/2003571.jpg", "price": 39, "quantity": 15 },
+    
+    { "id": 2, "name": "Ghost of Tsushima", "platform": "PS4", "image":"https://www.nedgame.nl/playstation-4/ghost-of-tsushima-director-s-cut.5701355211.cover.webp?1663673681", "price": 49, "quantity": 5 },
+    
+    { "id": 3, "name": "God of War Ragnarok", "platform": "PS5", "image":"https://www.dgmoutlet.nl/media/image/e9/27/45/DGM-outlet-God-of-War-Ragnarok-Launch-Edition-PS5_600x600.webp", "price": 59, "quantity": 8 },
+    
+    { "id": 4, "name": "Horizon Forbidden West", "platform": "PS4", "image":"https://www.dgmoutlet.nl/media/image/fb/e2/86/DGM-outlet-Horizon-Forbidden-West-PS4.jpg", "price": 59, "quantity": 9 },
+    
+    { "id": 5, "name": "FIFA 23", "platform": "PS4", "image":"https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQD_U2ygA5fURpSJWJ5uDuFGJ8bKytfQ3hWN3HGvxuGA_ICe-0idk59jkwCY00ipq7Ay_LlMLTl8GLRMvtK_5A3sHSTNOGmJhFoMp4MCOdm13VfgA_tTvQ89w", "price": 69, "quantity": 5 },
+    
+    { "id": 6, "name": "Spider-Man: Miles Morales", "platform": "PS5", "image":"https://www.retroplaystationkopen.nl/assets/products/2014211.jpg", "price": 49, "quantity": 15 },
+    
+    { "id": 7, "name": "Halo Infinite", "platform": "Xbox", "image":"https://m.media-amazon.com/images/I/91SVLtSOJ4L._AC_SY300_SX300_.jpg", "price": 59, "quantity": 2 },
+    
+    { "id": 8, "name": "Forza Horizon 5", "platform": "Xbox", "image":"https://m.media-amazon.com/images/I/61lqxExaSeL._AC_SX342_SY445_.jpg", "price": 69, "quantity": 7 },
+    
+    { "id": 9, "name": "Red Dead Redemption 2", "platform": "PS4", "image":"https://m.media-amazon.com/images/I/61WfzKOhNuL._AC_SL1100_.jpg", "price": 39, "quantity": 4 },
+    
+    { "id": 10, "name": "Call of Duty: Modern Warfare II", "platform": "PS5", "image":"https://m.media-amazon.com/images/I/81AxS0QabcL._AC_SL1500_.jpg", "price": 69, "quantity": 21 },
+    
+    { "id": 11, "name": "Resident Evil Village", "platform": "PS5", "image":"https://m.media-amazon.com/images/I/81+bvkRe+jL._AC_SX342_SY445_.jpg", "price": 59, "quantity": 1 },
+   
+    { "id": 12, "name": "Assassin's Creed Valhalla", "platform": "Xbox", "image":"https://m.media-amazon.com/images/I/81QYDbsHTNL._AC_SL1500_.jpg", "price": 49, "quantity": 3 },
+    
+    { "id": 13, "name": "Cyberpunk 2077", "platform": "PS4", "image":"https://m.media-amazon.com/images/I/81pjy+hhTfL._AC_SL1500_.jpg", "price": 49, "quantity": 9 },
+    
+    { "id": 14, "name": "Elden Ring", "platform": "PS5", "image":"https://m.media-amazon.com/images/I/81pF8NzKtzS._AC_SL1500_.jpg", "price": 59, "quantity": 6 },
+    
+    { "id": 15, "name": "The Witcher 3: Wild Hunt", "platform": "PS5", "image":"https://m.media-amazon.com/images/I/81-5Hwz8HbL._AC_SL1500_.jpg", "price": 80, "quantity": 1 }
+ ]
